@@ -65,12 +65,19 @@ section h2 {
 
 
 .inmsg{
-  background: #000;
   color: #fff;
-  font-size: 18px;
+  background:#0184FF;
+  color: #fff;
+  font-size: 20px;
   padding: 10px;
   text-align: center;
 }
+
+.inmsg:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
 
 
 
