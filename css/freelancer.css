@@ -64,12 +64,13 @@ section h2 {
 
 
 
-/*.inbox{
-  background-color: #000;
-  columns: #fff;
+.inmsg{
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
   text-align: center;
 }
-*/
 
 
 
