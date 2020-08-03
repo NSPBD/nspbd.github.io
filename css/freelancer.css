@@ -71,16 +71,17 @@ section h2 {
   font-size: 20px;
   padding: 10px;
   text-align: center;
+  border-radius: 6px;
 }
 
 .inmsg:hover{
   color: #fff;
   text-decoration: none;
+  transition: 0.5s;
 }
-
-
-
-
+.inmsg:active{
+  color: #fff;
+}
 
 @media (min-width: 992px) {
   section h2 {
@@ -123,7 +124,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #E50914;
 }
 
 #mainNav .navbar-nav {
@@ -150,7 +151,7 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
-  background:#000;
+  background: #000;
 }
 
 @media (min-width: 992px) {
@@ -367,9 +368,13 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  /*background-color: #18BC9C !important;*/
-  background: url(../img/cover2.jpeg)no-repeat center fixed;
+  background-color: #E50914 !important;
+  background: url(../img/cover3.jpg)no-repeat center ;
   background-size: cover; 
+}
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover{
+
+  background-color: #E50914 !important;
 }
 .bg-primary1 {
   background-color: #18BC9C !important;
